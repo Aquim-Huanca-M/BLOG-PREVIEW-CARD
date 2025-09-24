@@ -8,7 +8,7 @@ const montserrat = Montserrat({
   weight: ["500" , "700"],
 });
 
-const fraunces = Fraunces({
+export const fraunces = Fraunces({
   variable: "--font-Fraunces",
   subsets: ["latin"],
   weight: ["700"],

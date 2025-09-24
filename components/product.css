@@ -1,0 +1,16 @@
+.background-white{
+    background: var(--White);
+}
+.detalles{
+    margin: 24px;
+}
+.detalles h3{
+    text-transform: uppercase;
+    color: var(--Grey);
+    letter-spacing: 0.3em;
+    margin: 8px;
+}
+.detalles h2{
+    color: var(--Black);
+    font-size: 36px;
+}
