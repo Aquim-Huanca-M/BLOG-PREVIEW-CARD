@@ -7,7 +7,8 @@ const ButtonSection = () => {
   return (
     <div className="button-container">
         <button className={`${montserrat.className} card-button`}>
-            <i className="icon-card" >Add to card</i>
+            <i className="icon-card"></i>
+                Add to card
         </button>
     </div>
   );

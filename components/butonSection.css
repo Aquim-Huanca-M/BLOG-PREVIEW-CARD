@@ -10,15 +10,17 @@
     color: var(--White);
     width: 100%;
     height: 40px;
+    font-weight: 600;
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
 }
 
 .icon-card{
-    display: block;
-    background: url(/public/icon-cart.svg);
+    display: inline-block;
+    background: url("/icon-cart.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
