@@ -1,7 +1,7 @@
 import Product from "./Product";
 import "@/components/productCard.css";
 
-const ProductCard = () => {
+const ProductCard = (props:any) => {
   return (
     <div className="product-card">
         <Product/>

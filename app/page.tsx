@@ -1,11 +1,12 @@
-import ButtonSection from "@/components/ButtonSection";
-import Product from "@/components/Product";
 import ProductCard from "@/components/ProductCard";
+import producList from "@/public/MOCK_DATA.json"; 
+
+
 
 export default function Home() {
   return (
     <>
-      <ProductCard/>
+      <ProductCard producList={ producList}/>
     </>
   );
 }
