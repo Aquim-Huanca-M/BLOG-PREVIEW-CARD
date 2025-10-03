@@ -4,7 +4,6 @@ import { Fraunces, Montserrat } from "next/font/google";
 import ButtonSection from "./ButtonSection";
 
 
-
 const Product = () => {
   return <section className="background-white">
     <img src="https://i26.servimg.com/u/f26/20/62/62/11/image-10.jpg" alt="imagen"/>
@@ -22,7 +21,6 @@ const Product = () => {
       <ButtonSection/>
     </div>
     </section>
-
 };
 
 export default Product
