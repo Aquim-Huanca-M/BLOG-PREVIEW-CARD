@@ -6,7 +6,7 @@ import producList from "@/public/MOCK_DATA.json";
 export default function Home() {
   return (
     <>
-      <ProductCard producList={ producList}/>
+      <ProductCard producList={producList}/>
     </>
   );
 }
