@@ -1,12 +1,15 @@
 import ProductCard from "@/components/ProductCard";
-import producList from "@/public/MOCK_DATA.json"; 
 
 
 
-export default function Home() {
+
+export default async function Home() {
+  let data = await fetch ('https://68e936bef2707e6128ce09a7.mockapi.io/api/v1/products')
+  let products = await data.json()
+  
   return (
     <>
-      <ProductCard producList={producList}/>
+      <ProductCard producList={products}/>
     </>
   );
 }

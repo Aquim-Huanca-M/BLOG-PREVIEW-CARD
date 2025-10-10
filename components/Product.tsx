@@ -9,7 +9,7 @@ interface ProductProps{
 
 const Product = ({product}: ProductProps ) => {
   return <section className="background-white">
-    <img src={product.image} alt="imagen"/>
+    <img className="imagen" src={product.image} alt="imagen"/>
     <div className="detalles">
       <h3 className={`${montserrat.className} font-semibold`}>{product.category}</h3>
       <h2 className={`${fraunces.className} font-semibold`}>{product.name}</h2>
