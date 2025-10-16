@@ -25,4 +25,4 @@ const Product = ({product}: ProductProps ) => {
     </section>
 };
 
-export default Product
+export default Product 
