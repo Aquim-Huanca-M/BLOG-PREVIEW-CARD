@@ -12,6 +12,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+
+    /*### Neutral*/
+    --Black: hsl(212, 21%, 14%);
+    --Yellow: rgb(228, 203, 18);
+    --White: hsl(0, 0%, 100%);
+
+    --background: #0a0a0a;
+
+  }
+}
 body {
   background: var(--Yellow);
   display: flex;
