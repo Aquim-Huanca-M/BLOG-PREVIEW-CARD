@@ -10,7 +10,7 @@ const Product = ({product}: ProductProps ) => {
   return <section className="background-white">
     <img className="imagen" src={product.image} alt="imagen"/>
     <div className="detalles">
-      <h3 className={`${figtree.className} font-semibold`}>Learned</h3>
+      <h3 className={`${figtree.className} font-semibold`}>Learned </h3>
       <span className={`${figtree.className} font-semibold date`} > {`${product.date}`} </span>
       
       <p>
@@ -22,7 +22,3 @@ const Product = ({product}: ProductProps ) => {
 };
 
 export default Product 
-
-
-
-
