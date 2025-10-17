@@ -1,6 +1,5 @@
 import Product from "./Product";
 import "@/components/productCard.css";
-import "@/public/MOCK_DATA.json";
 
 interface ProductCardProps{
   producList: Product[];

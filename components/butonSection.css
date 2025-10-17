@@ -1,26 +1,24 @@
 .button-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     padding-bottom: 24px;
 }
 
 .card-button{
-    background: var(--Green-500);
-    color: var(--White);
+    color: var(--Black);
     width: 100%;
     height: 40px;
     font-weight: 600;
-    border-radius: 8px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 8px;
 }
 
 .icon-card{
     display: inline-block;
-    background: url("/icon-cart.svg");
+    background: url("/globe.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;

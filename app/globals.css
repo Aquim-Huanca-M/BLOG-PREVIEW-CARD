@@ -14,28 +14,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /*### Primary*/
-
-    --Green-500: hsl(158, 36%, 37%);
-    --Green-700: hsl(158, 42%, 18%);
 
     /*### Neutral*/
-
     --Black: hsl(212, 21%, 14%);
-
-    --Grey: hsl(228, 12%, 48%);
-    --Cream: hsl(30, 38%, 92%);
+    --Yellow: rgb(228, 203, 18);
     --White: hsl(0, 0%, 100%);
 
     --background: #0a0a0a;
-    --foreground: #ededed;
 
-    /* font */
-
-    -font-size-paragraph: 14px
   }
 }
 body {
-  background: var(--Cream);
-  color: var(--Black);
+  background: var(--Yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Figtree";
+  width: 370px;
 }
