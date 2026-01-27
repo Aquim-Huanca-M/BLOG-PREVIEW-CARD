@@ -5,14 +5,13 @@ import ButtonSection from "./ButtonSection";
 interface ProductProps{
   product: Product;
 }
-
 const Product = ({product}: ProductProps ) => {
   return <section className="background-white">
     <img className="imagen" src={product.image} alt="imagen"/>
     <div className="detalles">
       <h3 className={`${figtree.className} font-semibold`}>Learned </h3>
+      <h2 className={`${figtree.className} font-semibold`}>{`${product.name}`} </h2>
       <span className={`${figtree.className} font-semibold date`} > {`${product.date}`} </span>
-      
       <p>
       {product.description}
       </p>
@@ -21,4 +20,5 @@ const Product = ({product}: ProductProps ) => {
     </section>
 };
 
-export default Product 
+export default Product
+

@@ -5,4 +5,5 @@ interface Product{
     description: string;
     date: number;
     name2: string;
+    
 }
